@@ -63,7 +63,6 @@ body{
 }
 
 .main-content{
-    padding: 2rem;
     display: flex;
     align-items: center;
     gap: 3rem;
@@ -102,4 +101,16 @@ p{
     border-radius: 3rem;
     border-style: none;
     margin-top: 1.5rem;
+}
+
+.socials{
+    display: flex;
+    width: 90%;
+    gap: 0.8rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+.facebook{
+    width: 2rem;
+    fill: #eee;
 }
